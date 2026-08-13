@@ -102,7 +102,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 .DS_Store
 env/
@@ -160,11 +159,9 @@ docker-compose.override.yml
 *.zip
 
 # vscode
-.vscode/
 
 # front-end
 node_modules
-.env
 .npmrc
 # mage_ai/server/frontend_dist
 # mage_ai/server/frontend_dist_base_path_template
@@ -191,3 +188,4 @@ package.json
 test.py
 test/
 test_data*
+config.bat
